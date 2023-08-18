@@ -1,0 +1,13 @@
+.about {
+  height: 100vh;
+  padding-left: 200px;
+}
+.about_content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.about_content img {
+  width: 25rem;
+  opacity: 0.65;
+}/*# sourceMappingURL=About.css.map */

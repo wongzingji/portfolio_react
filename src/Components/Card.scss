@@ -1,0 +1,45 @@
+@import 'variables';
+
+.card {
+    background-color: #fff;
+    width: $card_width;
+    height: $card_height;
+    padding: $card_padding;
+
+    &_content {
+        &_image {
+            height: $card_image_height;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+                background-position: center left;
+                object-fit: contain;
+            }
+        }
+
+        &_title {
+            color: #000;
+            h2 {
+                margin: $card_text_margin;
+            }
+        }
+
+        &_desc {
+            color: gray;
+
+            p {
+                margin: $card_text_margin;
+            }
+        }
+    }
+}
+
+.text-ellipsis {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

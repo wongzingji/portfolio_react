@@ -1,0 +1,1 @@
+{"version":3,"sources":["Journals.scss","../Components/variables.scss","Journals.css","../Components/mixins.scss"],"names":[],"mappings":"AAGA;EACI,wDAAA;EACA,yBAAA;EACA,wBAAA;EACA,+BAAA;EAEA,mBCFY;EDGZ,iBAAA;AEHJ;AFKI;EGXA,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,uBAAA;ADSJ;AFCQ;EACI,cAAA;EACA,qBAAA;EACA,YAAA;EACA,YCHC;EDID,aAAA;AECZ","file":"Journals.css"}

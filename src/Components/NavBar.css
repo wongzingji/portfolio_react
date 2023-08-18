@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  height: 50px;
+  background-color: #000;
+  opacity: 0.8;
+}
+.navbar_menu a {
+  float: right;
+  width: 6rem;
+  text-align: center;
+  line-height: 50px;
+}
+.navbar_menu a:hover {
+  background-color: #363636;
+}
+.navbar_menu_item {
+  color: lightgray;
+}
+.navbar_menu_item_active {
+  background-color: dimgray;
+  color: #fff;
+}/*# sourceMappingURL=NavBar.css.map */

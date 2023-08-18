@@ -1,0 +1,18 @@
+@import '../Components/variables';
+
+.about {
+    height: 100vh;
+    padding-left: $sidebar_width;
+
+    &_content {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        img {
+            width: 25rem;
+            // height: 20rem;
+            opacity: 0.65;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #000;
+  color: lightgray;
+  opacity: 0.8;
+}
+.sidebar p {
+  margin: 3rem 0;
+  font-size: 18px;
+  text-align: center;
+}
+.sidebar_menu a {
+  display: block;
+  height: 3rem;
+  text-align: center; /* horizontally */
+  line-height: 3rem; /* vertically */
+}
+.sidebar_menu a:hover {
+  background-color: #363636;
+}
+.sidebar_menu_item {
+  color: lightgray;
+}
+.sidebar_menu_item_active {
+  background-color: dimgray;
+  color: #fff;
+}/*# sourceMappingURL=SideBar.css.map */

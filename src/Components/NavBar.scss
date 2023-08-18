@@ -1,0 +1,32 @@
+@import 'variables';
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: $sidebar_width;
+    right: 0;
+    height: $navbar_height;
+    background-color: #000;
+    opacity: $bar_opacity;
+
+    &_menu {
+        a {
+            float: right;
+            width: 6rem;
+            text-align: center;
+            line-height: $navbar_height;
+        }
+        a:hover {
+            background-color: #363636;
+        }
+
+        &_item {
+            color: $bar_font_color;
+        }
+
+        &_item_active {
+            background-color: $bar_background_color_active;
+            color: $bar_font_color_active;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import 'variables';
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar_width;
+    height: 100vh;
+    background-color: #000;
+    color: $bar_font_color;
+    opacity: $bar_opacity;
+
+    p {
+        margin: 3rem 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    &_menu {
+
+        a {
+            display: block;
+            height: 3rem;
+            text-align: center; /* horizontally */
+            line-height: 3rem; /* vertically */
+        }
+        a:hover {
+            background-color: #363636;
+        }
+
+        &_item {
+            color: $bar_font_color;
+        }
+
+        &_item_active {
+            background-color: $bar_background_color_active;
+            color: $bar_font_color_active;
+        }
+    }
+}

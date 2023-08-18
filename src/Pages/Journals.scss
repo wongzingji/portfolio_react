@@ -1,0 +1,30 @@
+@import '../Components/variables';
+@import '../Components/mixins';
+
+.journals {
+    background-image: url('../assets/images/background.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    -moz-background-size: 100% 100%;
+
+    padding-left: $sidebar_width;
+    padding-top: $navbar_height;
+
+    &_content {
+        @include flex-center;
+        a {
+            display: block;
+            text-decoration: none;
+            width: $card_width+2*$card_padding;
+            margin: $card_space;
+            opacity: $card_opacity;
+
+            // @include flex-center;
+        }
+        // a:hover {
+        //     color: $navbar_font_color_active;
+        // }
+            // @include flex-center;
+        
+    }
+}
