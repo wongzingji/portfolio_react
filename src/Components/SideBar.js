@@ -35,9 +35,9 @@ function SideBar() {
             <div style={{padding: 80}}>
                 <img src={ require('../assets/images/home/photo.png')} />
             </div>
-            <p>
+            {/* <p>
                 Jingyi Huang's <i style={{fontWeight: 'bold'}}>playground 🎵</i>
-            </p>
+            </p> */}
             <div className='sidebar_menu'>
                 {/* <ul> */}
                     {
