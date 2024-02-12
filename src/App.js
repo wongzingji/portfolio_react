@@ -1,31 +1,26 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Journals from "./Pages/Journals";
 import JournalDetails from "./Pages/JournalDetails";
 import Projects from "./Pages/Projects";
 import "./const"
 import "./App.css";
-import { my_cities, travel_cities } from "./const";
+import { cities } from "./const";
 
 // TODO: deal with journals
 const routeItems = [
   {
-    path: '',
-    element: <Home />
-  },
-  {
     path: 'about',
     element: <About />
   },
+  // {
+  //   path: 'journals/garments',
+  //   // element: <Journals journalItems={ my_cities }/>
+  // },
   {
-    path: 'journals/mycities',
-    element: <Journals journalItems={ my_cities }/>
-  },
-  {
-    path: 'journals/travels',
-    element: <Journals journalItems={ travel_cities }/>
+    path: 'journals/cities',
+    element: <Journals journalItems={ cities }/>
   },
   {
     path: 'projects',
@@ -34,7 +29,7 @@ const routeItems = [
   // no match
   {
     path: "*",
-    element: <Home />
+    element: <About />
   }
 ];
 

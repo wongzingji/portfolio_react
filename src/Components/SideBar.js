@@ -4,16 +4,12 @@ import './SideBar.css'
 
 const sidebarItems = [
     {
-        name: 'Home',
-        to: '/'
-    },
-    {
         name: 'About',
         to: '/about'
     },
     {
         name: 'Journals',
-        to: '/journals/mycities' // TODO
+        to: '/journals/cities'
     },
     {
         name: 'Projects',
@@ -32,13 +28,8 @@ function SideBar() {
 
     return (
         <div className="sidebar">
-            <div style={{padding: 80}}>
-                <img src={ require('../assets/images/home/photo.png')} />
-            </div>
-            {/* <p>
-                Jingyi Huang's <i style={{fontWeight: 'bold'}}>playground 🎵</i>
-            </p> */}
-            <div className='sidebar_menu'>
+            <div className='sidebar_menu'> 
+            {/* style={{padding: 100}} */}
                 {/* <ul> */}
                     {
                         sidebarItems.map((item, index) => (

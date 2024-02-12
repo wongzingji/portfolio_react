@@ -6,12 +6,8 @@ import './Journals.css'
 
 const menuItems = [
     {
-        name: 'Travels',
-        to: '/journals/travels'
-    },
-    {
-        name: 'My cities',
-        to: '/journals/mycities'
+        name: 'Cities',
+        to: '/journals/cities'
     },
 ]
 
