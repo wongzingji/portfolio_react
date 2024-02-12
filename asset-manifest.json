@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.d172c304.css",
-    "main.js": "/portfolio_react/static/js/main.8bf4c4c4.js",
+    "main.css": "/portfolio_react/static/css/main.dbb2506d.css",
+    "main.js": "/portfolio_react/static/js/main.36c4feb2.js",
     "static/media/geneva_cover.jpg": "/portfolio_react/static/media/geneva_cover.e6e15dd085a43529c0c7.jpg",
     "static/media/berlin_cover.jpg": "/portfolio_react/static/media/berlin_cover.8ef79a53d8e3a59e6517.jpg",
     "static/media/london_cover.jpg": "/portfolio_react/static/media/london_cover.23678af52db86f944ab2.jpg",
     "static/media/paris_cover.jpg": "/portfolio_react/static/media/paris_cover.dee1c6ecbcc8fe9e0439.jpg",
     "static/media/edi_cover.jpg": "/portfolio_react/static/media/edi_cover.4600c278b10cb185e1f7.jpg",
     "static/media/tokyo_cover.jpg": "/portfolio_react/static/media/tokyo_cover.6dbfb857ab17c33d21b4.jpg",
+    "static/media/photo.jpg": "/portfolio_react/static/media/photo.915e42dfed83a869d58c.jpg",
     "static/media/rome_cover.jpg": "/portfolio_react/static/media/rome_cover.2973d03bf01884dc14d6.jpg",
     "static/media/background.jpg": "/portfolio_react/static/media/background.8b7fb2f8b5856100f2ef.jpg",
     "static/media/milano_cover.jpg": "/portfolio_react/static/media/milano_cover.cff8549ad4b8504c0152.jpg",
-    "static/media/photo2.png": "/portfolio_react/static/media/photo2.56a2d4828a9b8a12e8cb.png",
-    "static/media/photo.png": "/portfolio_react/static/media/photo.273497f9d6ab6b1c85aa.png",
     "index.html": "/portfolio_react/index.html",
-    "main.d172c304.css.map": "/portfolio_react/static/css/main.d172c304.css.map",
-    "main.8bf4c4c4.js.map": "/portfolio_react/static/js/main.8bf4c4c4.js.map"
+    "main.dbb2506d.css.map": "/portfolio_react/static/css/main.dbb2506d.css.map",
+    "main.36c4feb2.js.map": "/portfolio_react/static/js/main.36c4feb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d172c304.css",
-    "static/js/main.8bf4c4c4.js"
+    "static/css/main.dbb2506d.css",
+    "static/js/main.36c4feb2.js"
   ]
 }
