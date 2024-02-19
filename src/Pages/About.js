@@ -8,7 +8,7 @@ function About() {
                 <SideBar />
                 <div className="about_content">
                     <div class="column-left">
-                        <img src={ require('../assets/images/home/photo.jpg') }/>
+                        <img src={ require('../assets/images/profile/photo.jpg') } style={{ width: 500 }}/>
                         <p>
                             Contact me @reirawongg@gmail.com <br></br>
                             for ML/CV projects :D

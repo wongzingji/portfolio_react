@@ -11,7 +11,7 @@ import { cities } from "./const";
 // TODO: deal with journals
 const routeItems = [
   {
-    path: 'about',
+    path: 'portfolio_react/about',
     element: <About />
   },
   // {
@@ -19,11 +19,11 @@ const routeItems = [
   //   // element: <Journals journalItems={ my_cities }/>
   // },
   {
-    path: 'journals/cities',
+    path: 'portfolio_react/journals/cities',
     element: <Journals journalItems={ cities }/>
   },
   {
-    path: 'projects',
+    path: 'portfolio_react/projects',
     element: <Projects />
   },
   // no match

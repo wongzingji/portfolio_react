@@ -5,15 +5,15 @@ import './SideBar.css'
 const sidebarItems = [
     {
         name: 'About',
-        to: '/about'
+        to: '/portfolio_react/about'
     },
     {
         name: 'Journals',
-        to: '/journals/cities'
+        to: '/portfolio_react/journals/cities'
     },
     {
         name: 'Projects',
-        to: '/projects'
+        to: '/portfolio_react/projects'
     }
 ]
 

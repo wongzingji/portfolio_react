@@ -7,7 +7,7 @@ import './Journals.css'
 const menuItems = [
     {
         name: 'Cities',
-        to: '/journals/cities'
+        to: '/portfolio_react/journals/cities'
     },
 ]
 

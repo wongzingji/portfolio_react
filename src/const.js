@@ -14,11 +14,11 @@ export const cities = [
         url: require('./assets/images/milano_cover.jpg'),
         desc: '「在教堂圣神的钟声中寻找永恒和另一种可能」'
     },
-    {
-        title: 'Rome',
-        url: require('./assets/images/rome_cover.jpg'),
-        desc: ''
-    },
+    // {
+    //     title: 'Rome',
+    //     url: require('./assets/images/rome_cover.jpg'),
+    //     desc: ''
+    // },
     {
         title: 'Berlin',
         url: require('./assets/images/berlin_cover.jpg'),
