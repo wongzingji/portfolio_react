@@ -10,13 +10,13 @@
   margin-top: 1rem;
   width: 60%;
 }
-.column-left {
+.section-left {
   flex: 40%;
 }
-.column-right {
+.section-right {
   flex: 60%;
 }
-.title
+/* .title
 {
     display: block;
     border-top: 4px solid #a7a59b;
@@ -28,13 +28,13 @@
     color: #000;
     margin-bottom: 13px;
     clear:both;
+} */
+
+h2 {
+  margin-top: 1.5rem;
 }
 
-h3 {
-  margin: 2rem 0;
-}
-
-dl {
+/* dl {
   display: block;
 }
 dt {
@@ -42,16 +42,34 @@ dt {
 }
 dd {
   margin: 1rem;
+} */
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  font-size: medium;
+  font-weight: 650;
+  padding-left: 0.1rem;
+  margin: 1rem 0 0 0;
 }
-.column-right .name {
-  float:left;
+.column.name {
   width: 45%;
-  font-weight: 650;
 }
-.column-right .date {
-  float:right;
-  font-weight: 650;
-  width: 49%;
-  padding-right: 1rem;
+.column.loc {
+  width: 15%;
+}
+.column.date {
+  width: 35%;
+}
+p {
+  padding-left: 0.1rem;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.segment {
+  height: 1rem;
 }
 /*# sourceMappingURL=About.css.map */
