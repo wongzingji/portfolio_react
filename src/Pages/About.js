@@ -21,13 +21,13 @@ function About() {
                             <h5 class="column loc">UK</h5>
                             <h5 class="column date">2018.09 - 2019.11</h5>
                         </div>
-                        <p>M.S. of Stats with Data Science</p>
+                        <p>M.S. in Stats with Data Science</p>
                         <div class="row">
                             <h5 class="column name">Waseda University</h5>
                             <h5 class="column loc">Tokyo</h5>
                             <h5 class="column date">2022.04 - 2024.03</h5>
                         </div>
-                        <p>M.S. of Computer Science 
+                        <p>M.S. in Computer Science 
                                 (Research on Computer Vision: <a href="https://esslab.jp/ja/">ess lab</a>)</p>
                         <div class="segment"></div>
                         <h2>Work Experience</h2>
